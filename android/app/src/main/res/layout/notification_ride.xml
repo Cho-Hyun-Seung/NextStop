@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="8dp" android:background="#FFF8E7">
+    <TextView android:id="@+id/notification_route" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:textStyle="bold" android:textColor="#173F8A" android:maxLines="1" android:ellipsize="end" />
+    <TextView android:id="@+id/notification_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="13sp" android:textColor="#172B4D" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="4dp" />
+    <ImageView android:id="@+id/notification_line" android:layout_width="match_parent" android:layout_height="72dp" android:scaleType="fitCenter" android:importantForAccessibility="yes" android:contentDescription="@string/notification_route_description" />
+    <TextView android:id="@+id/notification_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="12sp" android:textColor="#53627A" android:maxLines="2" android:ellipsize="end" />
+</LinearLayout>
