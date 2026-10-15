@@ -1,0 +1,52 @@
+{
+  "name": "NextStop",
+  "version": 1,
+  "colors": {
+    "light": {
+      "primary": "#2457C5",
+      "primaryStrong": "#173F8A",
+      "primarySoft": "#E7EEFC",
+      "background": "#FFF8E7",
+      "surface": "#FFFCF5",
+      "surfaceMuted": "#F1E9D8",
+      "textPrimary": "#172B4D",
+      "textSecondary": "#53627A",
+      "onPrimary": "#FFFFFF",
+      "borderDecorative": "#D8D4C7",
+      "borderControl": "#7B8796",
+      "success": "#25634A",
+      "warning": "#946200",
+      "danger": "#B42318"
+    },
+    "dark": {
+      "primary": "#8FB4FF",
+      "primaryStrong": "#B6CDFF",
+      "primarySoft": "#203451",
+      "background": "#111B2B",
+      "surface": "#1A2940",
+      "surfaceMuted": "#24364F",
+      "textPrimary": "#FFF8E7",
+      "textSecondary": "#C0C9D8",
+      "onPrimary": "#111B2B",
+      "borderDecorative": "#364760",
+      "borderControl": "#8292AB",
+      "success": "#90D5B0",
+      "warning": "#F1C778",
+      "danger": "#FFB4AB"
+    }
+  },
+  "layoutUnit": "logical",
+  "spacing": {"xs": 4, "sm": 8, "md": 12, "lg": 16, "xl": 24, "xxl": 32},
+  "layout": {"screenInset": 20, "cardPadding": 16, "cardGap": 12, "buttonHeight": 52},
+  "radius": {"card": 16, "control": 12},
+  "typography": {
+    "screenTitle": {"size": 24, "weight": 700},
+    "currentLocation": {"size": 22, "weight": 700},
+    "sectionTitle": {"size": 18, "weight": 600},
+    "body": {"size": 16, "weight": 400},
+    "button": {"size": 16, "weight": 600},
+    "secondary": {"size": 14, "weight": 400},
+    "routeLabel": {"size": 12, "weight": 500}
+  },
+  "touchTarget": {"androidDp": 48, "iosPt": 44}
+}

@@ -1,0 +1,25 @@
+NextStop README images
+
+Generation mode: built-in image_gen tool (no CLI fallback).
+Brand palette: royal blue #2457C5, ivory #FFF8E7, navy #172B4D, pale blue #E7EEFC.
+
+ASSET 1: docs/images/nextstop-banner.png
+Use case: ads-marketing.
+Asset type: the very first wide banner image in the NextStop GitHub README.
+Primary request: design a polished, minimal brand banner for the existing Android public transit app NextStop. Use an extra-wide horizontal composition, approximately 3:1, ideally 1800 by 600 pixels.
+Scene/backdrop: a clean warm ivory background, exact dominant color #FFF8E7, with generous negative space and no texture or borders.
+Subject and composition: the left half contains a small royal-blue rounded-square app icon with a simple white uppercase N, followed by the large bold lowercase wordmark "nextstop.". Beneath it, use the Korean tagline on two short lines. The right half contains an elegant miniature 3D clay-style blue-and-ivory subway train and city bus, subtly connected by a single slim blue transit line with circular station dots. They should feel like crafted product illustrations, not toys or a busy city scene. Soft restrained contact shadows, rounded shapes, excellent visual balance.
+Palette: royal blue #2457C5, dark navy #172B4D, ivory #FFF8E7, pale blue #E7EEFC. Typography is crisp, modern and very legible at README scale.
+Text, verbatim and nothing else: "nextstop." and "창밖을 보는 여유," and "다음 정류장은 우리가.".
+Constraints: spell every character exactly, especially the Korean tagline. Keep all important content safely inside the composition with generous outer margins. This is an Android app; do not add iOS badges, Apple branding, website screenshots, app-store badges, unsupported functionality, QR codes, or watermarks. The aesthetic should be calm, useful, understated, premium.
+
+ASSET 2: docs/images/nextstop-phone-mockup.png
+Reference: the native Android example ride screen rendered by AndroidUiTest (ride-360.png). Example data, not a live API or physical-device capture.
+Use case: compositing / product-mockup.
+Asset type: a README image showing the NextStop Android app inside a phone.
+Input image 1: this is a supporting insert, the actual native Android app screen rendered using example data. It is the authoritative screen content, not merely a style reference.
+Primary request: create a beautiful front-facing Android smartphone product mockup whose display faithfully contains the entire supplied NextStop screen. Keep the actual app UI, wording, colors, layout, card positions and buttons unchanged. The app header reads "nextstop." with "설정"; the large blue card shows "10 · 종점 방면", "위치 기준", "정류장4 부근", "다음 정류장5"; below are three station dots, "정류장7 · 3개 지점 남음", the buttons "알림: 하차할 때만" and "이동 상세", and the bottom blue "하차 완료" button. Preserve those Korean strings exactly and use the image as the screen content. Do not crop out the bottom button or invent extra features.
+Scene/backdrop: warm ivory #FFF8E7, clean premium studio presentation matching the NextStop palette #2457C5 and #172B4D. A single realistic dark graphite Android smartphone with restrained rounded corners, thin bezels, discreet centered circular camera, realistic edge highlights and a soft diffuse contact shadow. Fully visible, upright, almost perfectly straight-on for maximum readability, with slight depth in the frame. A small amount of pale blue abstract transit-line decoration may sit far behind the phone without crossing the screen. No hands, no people, no second phone.
+Composition: landscape approximately 4:3, ideally 1600 by 1200 pixels. The phone is the clear central subject, around 85 percent of image height; the whole device and its shadow must fit safely with breathing room. Make the display bright, sharp and readable. Faithfully fit the entire reference UI; if extra display space is needed, extend only the ivory blank area without changing or adding interface elements.
+Constraints: this is a physical Android phone containing the native Android app, never a browser window. No Apple logo, no Dynamic Island, no iPhone branding, no website navigation, no extra external text or marketing copy, no watermark. No UI redesign, no added maps, ETAs, weather, navigation bars, or bottom tabs.
+
